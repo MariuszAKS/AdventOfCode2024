@@ -7,7 +7,7 @@ def get_result(part_id):
 
 
 def part_1():
-    with open('day_01.txt', 'r') as file:
+    with open('inputs/day_01.txt', 'r') as file:
         left_array: list[int] = []
         right_array: list[int] = []
         sum_apart: int = 0
@@ -31,7 +31,7 @@ def part_2():
     right_counts = {}
     similarity_score = 0
 
-    with open('day_01.txt', 'r') as file:
+    with open('inputs/day_01.txt', 'r') as file:
         for line in file:
             elements = line.split('   ')
             left = int(elements[0])
