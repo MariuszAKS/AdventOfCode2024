@@ -7,8 +7,14 @@ def get_result(part_id):
 
 
 def part_1():
+    with open('inputs/day_') as file:
+        for line in file:
+            pass
     pass
 
 
 def part_2():
+    with open('inputs/day_') as file:
+        for line in file:
+            pass
     pass
