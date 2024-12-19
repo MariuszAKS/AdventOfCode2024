@@ -15,7 +15,7 @@ import day_14
 import day_15
 import day_16
 import day_17
-# import day_18
+import day_18
 # import day_19
 # import day_20
 # import day_21
@@ -44,7 +44,7 @@ def get_result(day_id, part_id):
         case 15: return day_15.get_result(part_id)
         case 16: return day_16.get_result(part_id)
         case 17: return day_17.get_result(part_id)
-        # case 18: return day_18.get_result(part_id)
+        case 18: return day_18.get_result(part_id)
         # case 19: return day_19.get_result(part_id)
         # case 20: return day_20.get_result(part_id)
         # case 21: return day_21.get_result(part_id)
@@ -56,6 +56,6 @@ def get_result(day_id, part_id):
 
 
 if __name__ == '__main__':
-    day = 17
+    day = 18
     part = 2
     print(f'Result for day {day} part {part}: {get_result(day, part)}')
